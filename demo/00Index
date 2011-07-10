@@ -1,0 +1,14 @@
+TopicModelsDemo   Demonstrate the usage of functions for Topic Models chain.
+demo1    Demonstrate usage of runMarkovChainNoRegenS() and 
+         regenProbsFromRawOutput() functions using oneway hierarchical linear 
+         model.
+
+demo2    Demonstrate usage of runMarkovChainRegenS(), computeCI() and 
+         coeffVar() functions using oneway hierarchical linear model.
+
+demo3    Demonstrate usage of functions for oneway linear model with 
+         diffuse priors.
+
+HLMMdemo Demonstrate the usage of functions for Hierarchical Linear Mixed 
+         Model.
+

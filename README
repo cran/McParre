@@ -1,0 +1,36 @@
+Version updates:
+0.13 - all documentation ok
+     - no Topic Models
+     - no examples
+
+0.14 - scripts for runMarkovChainNoRegenS, runMarkovChainRegenS,
+       coeffVar, computeCI, *HLMM functions can be found in demo directory.
+       They can be called with demo(demo1) and demo(demo2) and demo(demo3).
+       Do demo() to get a description of each demonstration script.
+
+0.15 - scripts for runMarkovChainNoRegenS, runMarkovChainRegenS,
+       coeffVar, computeCI, *HLMM functions can be found in demo/ directory.
+       They can be called with demo(demo1) and demo(demo2) and demo(HLMMdemo).
+       Do demo() to get a description of each demonstration script.
+     - inst/ directory contains scripts for running petrol data, in S and P.
+     - inst/ directory also contains Rprofile for batch jobs
+     - contains timing code for runMarkovChainRegenP
+     - old regenProbs() moved to regenProbsFromRawOutput()
+     - new regenProbs() function that allows user to bypass smallFn, 
+       smallMeasure, and transDens.
+     - always use NAMED ARGUMENTS!
+
+0.16 - Topic Model functions and demo
+
+0.19 - Includes A. Tan's improper priors model. Parametrization is in 
+       terms of sigma and not lamda for the variance components
+     - includes demo script (demo3) and runBatchParallel that 
+       demonstrates how to run interactively and in batch mode.
+     - oh yes.. includes interactive sessions now.
+
+REMINDERS:
+
+(1) Are you using the right .Rprofile file? (BOTH)
+(2) Did you remember to load the McParre library with lib.loc argument (BATCH)
+(3) Did you remember to put mpi.quit()? (BOTH)
+(4) Did you remember to close the slaves with dellog=FALSE? (INTERACTIVE)

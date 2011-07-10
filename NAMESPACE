@@ -1,0 +1,10 @@
+useDynLib(McParre)
+export(coeffVar, computeCI, srq)
+export(runMarkovChainRegenS, runMarkovChainRegenP, runMarkovChainNoRegenS, 
+       regenProbsFromRawOutput, runMarkovChainRegenIP, 
+       runMarkovChainRegenSslave)
+export(genNextStateOnewayPlain, smallFnOnewayPlain, smallMeasureOnewayPlain,
+       transDensOnewayPlain, regenProbsOnewayPlain)
+export(genNextStateHLMM, smallFnHLMM, smallMeasureHLMM, transDensHLMM)
+export(genNextStateOnewayDiffuse, regenProbsOnewayDiffuse)
+export(genNextStateTopicModel, regenProbsTopicModel)
