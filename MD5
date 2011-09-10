@@ -1,4 +1,4 @@
-1d3b090502390ed3105bcf2f3682e4af *DESCRIPTION
+646d1559c1b7b025f1d4b30a526db9ec *DESCRIPTION
 b5865107271ec9c9d10824680c65dec9 *NAMESPACE
 632a9ffd4764d9c8f0dc69eb932f5ec3 *R/coeffVar.R
 50edbbf5e469f042723322c07ba3b4fb *R/computeCI.R
@@ -36,7 +36,7 @@ a722fb6a74b530faacaf2914922de6d0 *inst/RprofileBATCH
 6987e840b64737aa80d8fd2254c70485 *inst/runBatchParallel.R
 cdda40b3a21bf34dda87d406777a8e52 *inst/runInteractiveParallel.R
 ac8ea885b6447ebbb0f468892f57a76e *inst/runPetrolData.R
-1c9f23c18b4aaa4e4ba5a705c4f7b839 *man/McParre-package.Rd
+c4e61655bdb3c9a00b93e4cf61f40eb9 *man/McParre-package.Rd
 1d6c773cba54f610c563bb8ea9e5e339 *man/coeffVar.Rd
 14b4f0dad5b7290460e0ab2bd9fdf796 *man/computeCI.Rd
 339288b189c0de1f9c3beb333a57312c *man/genNextStateHLMM.Rd
@@ -61,5 +61,6 @@ cb1415e8f0ca0a086bb7104b44434c31 *man/srq.Rd
 e8c557f913a2a2ab7df27f886770d7b2 *man/transDensHLMM.Rd
 737cd7994acfc084f0b961f8320d6100 *man/transDensOnewayPlain.Rd
 00e96f8b22ac1a9bb4ea85ac57b118bd *man/verticesFromDistSet.Rd
+2fa4c7011c2bc0f7449ae151d5cc44ae *src/Makevars
 fa9c414382cd14c53f0f92bd12df5486 *src/genNextStateTopicModelInC.c
 af4ecee8097918770267aea73b72eb90 *src/onewayPlain.c
